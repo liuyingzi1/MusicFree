@@ -12,7 +12,7 @@ import NavBar from "./components/navBar";
 import Config from "@/core/appConfig";
 import { activateKeepAwakeAsync, deactivateKeepAwake } from "expo-keep-awake";
 import { Gesture, GestureDetector } from "react-native-gesture-handler";
-import { usePlayList } from "@/core/trackPlayer"; // 用原版底层Hook切歌
+import { usePlayList } from "@/core/trackPlayer"; 
 
 export default function MusicDetail() {
     const orientation = useOrientation();
